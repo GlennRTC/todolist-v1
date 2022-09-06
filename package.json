@@ -12,6 +12,9 @@
   },
   "author": "Glenn R. Tomassi",
   "license": "ISC",
+  "engines": {
+    "node": "16.16.0"
+  },
   "bugs": {
     "url": "https://github.com/GlennRTC/todolist-v1/issues"
   },

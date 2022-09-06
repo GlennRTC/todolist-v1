@@ -145,9 +145,11 @@ app.get("/about", function(req, res){
     res.render("about");
 });
 
+// HEROKU LISTEN
+app.listen(process.env.PORT);
 
 app.listen(3000, function(){
-    console.log("Server is running in port 3000...");
+    console.log("Server has started successfully");
 })
 
 
