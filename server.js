@@ -17,7 +17,7 @@ app.use(express.static("public"));
 mongoose.connect('mongodb+srv://dbadmin:jkmq9x25@atlascluster.bsfuaqw.mongodb.net/todolistDB', {useNewUrlParser: true});
 
 const itemsSchema = {
-    name: String,
+    name: String
 };
 
 const Item = mongoose.model("Item", itemsSchema);
